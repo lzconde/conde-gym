@@ -1,0 +1,109 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: 	#FF8C00;
+}
+
+
+#cabecalho .nav .nav-link.active{
+    background-color: #FFF;
+    color: #FF8C00;
+}
+
+#cabecalho .nav .nav-link{
+    color: #FFF;
+}
+
+.navbar-brand{
+    font-family: "Hind Mysuru", sans-serif;
+}
+
+.navbar-toggler{
+    background-color: #ffeae6;
+}
+
+.carousel-inner{
+    height: 800px;
+}
+
+.section-title{
+    font-family: "Hind Mysuru", sans-serif;
+}
+
+.section-title span{
+    color: #FF8C00;
+}
+
+.text-colored{
+    color: #FF8C00;
+}
+
+.nav-cardapio .nav-link.active,
+#matricula button{
+    background-color: #FF8C00;
+    color: #FFF;
+}
+
+.nav-cardapio .nav-link.active:hover{
+    color: #FFF;
+}
+
+.nav-cardapio .nav-link:hover{
+    color: #FF8C00;
+}
+
+.list-group-item{
+    background-color: #FF8C00;
+    color: #FFF;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+.nav-cardapio{
+    flex-direction: column;
+}
+
+#sobre,
+#vantagens,
+#planos,
+#matricula{
+    background-color: #fcecd7;
+}
+
+@media (max-width: 767px){
+    .carousel-inner{
+        height: 280px;
+    }
+    .carousel-item img{
+        height: 280px;
+    }
+
+    aside{
+        justify-content: center;
+    }
+
+    .nav-cardapio{
+        flex-direction: row;
+    }
+
+    .li-group{
+        justify-content: center;
+    }
+    
+    .img-plans{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+
+
