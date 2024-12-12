@@ -105,5 +105,11 @@ body {
     }
 }
 
+@media (max-width:420px){
+    .nav-cardapio{
+        flex-direction: column;
+    }
+}
+
 
 
